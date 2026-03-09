@@ -7,6 +7,7 @@ def doc_to_text(doc) -> str:
     B. <choice2>
     C. <choice3>
     D. <choice4>
+    E. <choice5>
     Answer:
     """
     choices = [doc["opa"], doc["opb"], doc["opc"], doc["opd"], doc["ope"]]
