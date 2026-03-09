@@ -9,12 +9,13 @@ def doc_to_text(doc) -> str:
     D. <choice4>
     Answer:
     """
-    choices = [doc["opa"], doc["opb"], doc["opc"], doc["opd"]]
+    choices = [doc["opa"], doc["opb"], doc["opc"], doc["opd"], doc["ope"]]
     option_choices = {
         "A": choices[0],
         "B": choices[1],
         "C": choices[2],
         "D": choices[3],
+        "E": choices[4]
     }
 
     prompt = "Question: " + doc["question"] + "\nChoices:\n"
