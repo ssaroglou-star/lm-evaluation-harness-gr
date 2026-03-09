@@ -1,4 +1,4 @@
-task: medmcqa
+task: medmcqa_el
 dataset_path: ssaroglou/medmcqa_greek
 output_type: multiple_choice
 training_split: train

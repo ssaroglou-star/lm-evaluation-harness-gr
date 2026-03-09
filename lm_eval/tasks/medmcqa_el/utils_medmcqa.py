@@ -9,7 +9,7 @@ def doc_to_text(doc) -> str:
     D. <choice4>
     Answer:
     """
-    choices = doc["multiple_choice_targets"]
+    choices = [doc["opa"], doc["opb"], doc["opc"], doc["opd"]]
     option_choices = {
         "A": choices[0],
         "B": choices[1],
@@ -17,7 +17,7 @@ def doc_to_text(doc) -> str:
         "D": choices[3],
     }
 
-    prompt = "Question: " + doc["inputs"] + "\nChoices:\n"
+    prompt = "Question: " + doc["question"] + "\nChoices:\n"
     for choice, option in option_choices.items():
         prompt += f"{choice.upper()}. {option}\n"
     prompt += "Answer:"
