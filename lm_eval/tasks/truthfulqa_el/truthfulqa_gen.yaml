@@ -1,11 +1,11 @@
 tag:
-  - truthfulqa
-task: truthfulqa_gen
-dataset_path: truthful_qa
+  - truthfulqa_el
+task: truthfulqa_gen_el
+dataset_path: ilsp/truthful_qa_greek
 dataset_name: generation
 output_type: generate_until
 training_split: null
-validation_split: validation
+validation_split: train
 test_split: null
 num_fewshot: 0
 doc_to_text: "\
