@@ -3,7 +3,7 @@ description: 'The following are multiple choice questions (with answers) about b
   is the correct letter choice.
 
   '
-include: _en_template_yaml
-task: mmlu_prox_en_business
+include: _el_lite_template_yaml
+task: mmlu_prox_lite_el_business
 task_alias: business
 process_docs: !function utils.process_business

@@ -3,7 +3,7 @@ description: 'The following are multiple choice questions (with answers) about o
   is the correct letter choice.
 
   '
-include: _en_template_yaml
-task: mmlu_prox_en_other
+include: _el_lite_template_yaml
+task: mmlu_prox_lite_el_other
 task_alias: other
 process_docs: !function utils.process_other

@@ -3,7 +3,7 @@ description: 'The following are multiple choice questions (with answers) about c
   is the correct letter choice.
 
   '
-include: _en_lite_template_yaml
-task: mmlu_prox_lite_en_chemistry
+include: _el_lite_template_yaml
+task: mmlu_prox_lite_el_chemistry
 task_alias: chemistry
 process_docs: !function utils.process_chemistry
