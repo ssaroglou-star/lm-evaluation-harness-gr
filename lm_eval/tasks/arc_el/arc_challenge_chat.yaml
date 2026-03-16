@@ -12,7 +12,7 @@ doc_to_text: 'Given the following question and four candidate answers (A, B, C a
 gen_prefix: 'The best answer is'
 fewshot_delimiter: "\n\n"
 doc_to_target: "{{ 'ABCD'[answerKey|int - 1] if answerKey|string in '1234' else answerKey }}"
-num_fewshot: 0
+num_fewshot: 25
 generation_kwargs:
   max_gen_toks: 100
   until:
